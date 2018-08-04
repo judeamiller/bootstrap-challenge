@@ -24,3 +24,31 @@
 	max-width:100%;
 	text-align: left
 }
+
+#headingOne {
+	background-color: #ff6666;
+}
+
+#headingTwo {
+	background-color: #ff9e66;
+}
+
+#headingThree {
+	background-color: #ffdb66;
+}
+
+#headingFour {
+	background-color: #9eff66;
+}
+
+#headingFive {
+	background-color: #66e5ff;
+}
+
+#headingSix {
+	background-color: #6675ff;
+}
+
+#headingSeven {
+	background-color: #d366ff;
+}
