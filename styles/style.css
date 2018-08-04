@@ -20,7 +20,7 @@
 }
 
 .btn{
-	white-space:normal !important;
+	white-space:normal;
 	max-width:100%;
 	text-align: left;
 	color: black;
