@@ -22,7 +22,12 @@
 .btn{
 	white-space:normal !important;
 	max-width:100%;
-	text-align: left
+	text-align: left;
+	color: black;
+}
+
+.btn:hover {
+	color: black;
 }
 
 #headingOne {
