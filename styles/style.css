@@ -6,3 +6,9 @@
 	font-family: 'Homemade Apple', regular;
 	font-size: 2em;
 }
+
+.jumbotron {
+	background-image: url("https://bootcamp-coders.cnm.edu/~jmiller156/bootstrap-challenge/images/jumbotronbg.jpg");
+	background-size: cover;
+
+}
