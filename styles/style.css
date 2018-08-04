@@ -3,12 +3,18 @@
 }
 
 .headerbrand {
-	font-family: 'Homemade Apple', regular;
 	font-size: 2em;
+}
+
+.miatafont {
+	font-family: 'Homemade Apple', regular;
 }
 
 .jumbotron {
 	background-image: url("https://bootcamp-coders.cnm.edu/~jmiller156/bootstrap-challenge/images/jumbotronbg.jpg");
 	background-size: cover;
+}
 
+.faqtitle {
+	font-size: 2em;
 }
