@@ -31,31 +31,33 @@
 	</head>
 	<body>
 		<!--Navbar Elements-->
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<a class="navbar-brand" href="#"><span class="headerbrand miatafont">Miata</span> Hut</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarNavDropdown">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="bootstrap-challenge.html">Home <span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="bootstrap-challenge.html#story">Miata Story</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="bootstrap-challenge.html#flavors">Four Flavors!</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="https://forum.miata.net/" target="_blank">Miata Forum</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="https://albuquerque.craigslist.org/search/sss?sort=rel&query=miata" target="_blank">Adopt One</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
+		<div class="container-fluid py-3">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light border">
+				<a class="navbar-brand" href="#"><span class="headerbrand miatafont">Miata</span> Hut</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="bootstrap-challenge.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="bootstrap-challenge.html#story">Miata Story</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="bootstrap-challenge.html#flavors">Four Flavors!</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="https://forum.miata.net/" target="_blank">Miata Forum</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="https://albuquerque.craigslist.org/search/sss?sort=rel&query=miata" target="_blank">Adopt One</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
 		<main class="container">
 			<h1 class="text-center">Why <strong class="faqtitle">M</strong>iata <strong class="faqtitle">I</strong>s <strong class="faqtitle">A</strong>lways <strong class="faqtitle">T</strong>he <strong class="faqtitle">A</strong>nswer</h1>
 			<div class="accordion py-5" id="accordionExample">
@@ -63,7 +65,7 @@
 				<div class="card">
 					<div class="card-header" id="headingOne">
 						<h5 class="mb-0">
-							<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+							<button class="btn btn-link"  type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
 								What Car Should I Buy?
 							</button>
 						</h5>
