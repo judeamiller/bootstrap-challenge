@@ -27,7 +27,8 @@
 }
 
 .btn:hover {
-	color: black;
+	color: #494949;
+
 }
 
 #headingOne {
@@ -56,4 +57,9 @@
 
 #headingSeven {
 	background-color: #d366ff;
+}
+
+.circle-picture {
+	height: 230px;
+	width: 230px;
 }
